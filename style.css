@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    gap: 40px;
+    border-bottom: 20px solid red;
+}
+
+.header__logos  {
+    display: flex;
+    gap: 10px;
+
+}
+
+.header__logos img {
+    width: 70px;
+}
+
+.header__oficial-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+/*Main*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main__section-red {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-red__color-red,
+.section-red__color-blue,
+.section-red__color-yellow {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section-red__color-red {
+    border-left: 10px solid red;
+}
+
+.section-red__color-blue {
+    border-right: 10px solid #034EA2;
+}
+
+.section-red__color-yellow {
+    border-left: 10px solid #FBB900;
+}
+
+.section-red__color-red div, .section-red__color-yellow  {
+    padding-left: 10px;
+}
+
+.section-red__color-blue {
+    padding-right: 10px;
+}
+
+.section-red__btn-red,
+.section-red__btn-blue,
+.section-red__btn-yellow {
+    padding: 10px;
+    font-size: 1.3em;
+    color: white;
+    
+}
+
+.section-red__btn-red {
+    background-color: red;
+}
+
+.section-red__btn-blue {
+    background-color: #034EA2;
+    
+}
+
+.section-red__btn-yellow {
+    background-color: #FBB900;
+    
+}
+
+/*main__section-blue*/
+
+.main__section-red1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 10px;
+    align-items: center;
+}
+
+.main__section-red1 h2{
+    border-bottom: 10px solid red;
+}
+
+.section-red1__card-horario {
+    background-color: red;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.section-red1__enbrulho {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.embrulho__card-curso {
+    display: flex;
+    flex-direction: column;
+    
+}
+.embrulho__card-curso button{
+    padding: 10px;
+    font-size: 1.3em;
+    color: white;
+    background-color: red;
+}
+
+.embrulho__card-curso img{
+    width: 100%;
+}
+
+.embrulho__card-curso h4{
+    
+}
