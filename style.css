@@ -13,7 +13,7 @@ header {
     border-bottom: 20px solid red;
 }
 
-.header__logos  {
+.header__logos {
     display: flex;
     gap: 10px;
 
@@ -36,6 +36,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    gap: 20px;
 }
 
 .main__section-red {
@@ -64,7 +65,8 @@ header {
     border-left: 10px solid #FBB900;
 }
 
-.section-red__color-red div, .section-red__color-yellow  {
+.section-red__color-red div,
+.section-red__color-yellow {
     padding-left: 10px;
 }
 
@@ -78,7 +80,7 @@ header {
     padding: 10px;
     font-size: 1.3em;
     color: white;
-    
+
 }
 
 .section-red__btn-red {
@@ -87,26 +89,25 @@ header {
 
 .section-red__btn-blue {
     background-color: #034EA2;
-    
+
 }
 
 .section-red__btn-yellow {
     background-color: #FBB900;
-    
+
 }
 
-/*main__section-blue*/
+/*main__section-red1*/
 
 .main__section-red1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     gap: 10px;
-    align-items: center;
 }
 
-.main__section-red1 h2{
+.main__section-red1 h2 {
     border-bottom: 10px solid red;
 }
 
@@ -120,25 +121,67 @@ header {
 .section-red1__enbrulho {
     display: flex;
     gap: 10px;
-    
+
 }
 
 .embrulho__card-curso {
     display: flex;
     flex-direction: column;
-    
+
 }
-.embrulho__card-curso button{
+
+.embrulho__card-curso button {
     padding: 10px;
     font-size: 1.3em;
     color: white;
     background-color: red;
 }
 
-.embrulho__card-curso img{
+.embrulho__card-curso img {
     width: 100%;
 }
 
-.embrulho__card-curso h4{
-    
+.embrulho__card-curso h4 {}
+
+/*main__section-red2*/
+
+.main__section-red2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main__section-red2 h2 {
+    border-bottom: 10px solid #034EA2;
+}
+
+.section-red2__card-horario {
+    background-color: #034EA2;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.section-red2__enbrulho {
+    display: flex;
+    gap: 10px;
+
+}
+
+.embrulho__card-curso {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-red2__enbrulho button {
+    padding: 10px;
+    font-size: 1.3em;
+    color: white;
+    background-color: #034EA2;
+}
+
+.embrulho__card-curso img {
+    width: 100%;
 }
