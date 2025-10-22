@@ -45,6 +45,23 @@ header {
     gap: 20px;
 }
 
+.section-red__info-etec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    padding: 60px;
+    color: white;
+    background-color: #785FB3;
+    font-size: 1em;
+}
+
+.section-red__info-etec h1 {
+    padding-bottom: 20px;
+    color: #d1bdff;
+}
+
 .section-red__color-red,
 .section-red__color-blue,
 .section-red__color-yellow {
@@ -120,15 +137,18 @@ header {
 
 .section-red1__enbrulho {
     display: flex;
-    gap: 10px;
-
+    flex-wrap: wrap; /* Permite quebra de linha */
+    gap: 10px; /* Espaçamento entre cards */
 }
 
-.embrulho__card-curso {
+.section-red1__enbrulho .embrulho__card-curso {
+    flex: 0 0 48%; /* Cada card ocupa cerca de 50% do contêiner */
     display: flex;
     flex-direction: column;
-
+    padding: 10px;
+    box-sizing: border-box;
 }
+
 
 .embrulho__card-curso button {
     padding: 10px;
@@ -165,15 +185,19 @@ header {
 
 .section-red2__enbrulho {
     display: flex;
-    gap: 10px;
-
+    flex-wrap: wrap; /* Permite que os cards quebrem linha */
+    gap: 10px; /* Espaçamento entre cards */
 }
 
 .embrulho__card-curso {
+    flex: 0 0 48%; /* Cada card ocupa ~50% do contêiner */
     display: flex;
     flex-direction: column;
-
+    background-color: #f5f5f5; /* opcional, para visualizar melhor */
+    padding: 10px;
+    box-sizing: border-box;
 }
+
 
 .section-red2__enbrulho button {
     padding: 10px;
