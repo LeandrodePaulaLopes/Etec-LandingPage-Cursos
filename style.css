@@ -161,8 +161,12 @@ header {
 
 .embrulho__card-curso img {
     width: 100%;
-    height: 200px;
+    height: auto;           /* Altura ajusta automaticamente */
+    max-height: 250px;      /* Impede que fiquem grandes demais */
+    object-fit: cover;      /* Corta bordas mantendo proporção */
+    border-radius: 8px;     /* Suaviza cantos */
 }
+
 
 .embrulho__card-curso h4 {}
 
